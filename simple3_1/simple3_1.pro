@@ -26,11 +26,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         widget.cpp \
-    qperson.cpp
+    qperson.cpp \
+    qmywidget.cpp
 
 HEADERS += \
         widget.h \
-    qperson.h
+    qperson.h \
+    qmywidget.h
 
 FORMS += \
         widget.ui
